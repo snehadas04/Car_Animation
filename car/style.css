@@ -17,3 +17,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.city{
+    background-image: url(city.png);
+}
