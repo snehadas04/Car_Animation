@@ -32,6 +32,16 @@ body{
     height: 6vh;
     background-size: contain;
     background-repeat: repeat;
-    animation: highway;
-    linear infinite;
+    animation: highway 5s linear infinite;
+}
+
+@keyframes highway{
+    100%{
+        transform: translateX(-900px);
+    }
+}
+
+.car{
+    width: 200px;
+    margin-top: -90px;
 }
