@@ -27,4 +27,11 @@ body{
 
 .highway{
     background-image: url(way.jpg);
+    margin-top: -1px;
+    width: 400vh;
+    height: 6vh;
+    background-size: contain;
+    background-repeat: repeat;
+    animation: highway;
+    linear infinite;
 }
