@@ -20,4 +20,11 @@ body{
 
 .city{
     background-image: url(city.png);
+    width: 100vh;
+    height: 36vh;
+    background-repeat: no-repeat;
+}
+
+.highway{
+    background-image: url(way.jpg);
 }
