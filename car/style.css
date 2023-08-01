@@ -73,7 +73,7 @@ body{
         transform: rotate(360deg);
     }
 }
-@keyframes spin{
+@keyframes car{
     0%{
         transform: translateY(-2px);
     }
