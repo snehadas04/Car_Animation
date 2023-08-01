@@ -67,6 +67,20 @@ body{
     padding: 0 25px 0 18px;
     margin-top: -44px;
 }
-.wheel img{
 
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin{
+    0%{
+        transform: translateY(-2px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-2px);
+    }
 }
