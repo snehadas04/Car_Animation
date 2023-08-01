@@ -61,7 +61,12 @@ body{
 }
 
 .wheel img{
+    width: 35px;
+    height: 35px;
+    animation: spin 2s linear infinite;
     padding: 0 25px 0 18px;
     margin-top: -44px;
 }
-.wheel
+.wheel img{
+
+}
